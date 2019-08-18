@@ -17,7 +17,7 @@
 	},
 	"checkver": {
 		"url": "https://download.elifulkerson.com/files/tcping/current/",
-		"regex": "/files/tcping/([\\d.]+)"
+		"regex": "\/files\/tcping\/([\\d.]+)"
 	},
 	"autoupdate": {
 		"architecture": {
