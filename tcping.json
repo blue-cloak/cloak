@@ -29,7 +29,7 @@
 				"url": "https://download.elifulkerson.com/files/tcping/current/tcping.exe",
 				"bin": "tcping.exe"
 			},
-			"hash": "$url.sha256",
-		},
-	},
+			"hash": "$url.sha256"
+		}
+	}
 }
