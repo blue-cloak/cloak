@@ -1,0 +1,24 @@
+{
+	"homepage": ""https://sigil-ebook.com/",
+	"description": "Sigil is a multi-platform EPUB ebook Editor",
+	"license": "GPL-3.0",
+	"version": "0.9.17",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/Sigil-Ebook/Sigil/releases/download/0.9.17/Sigil-0.9.17-Windows-x64-Setup.exe",
+			"hash": "c6fc802ab3111ff4c17aeb09afc32ddf423f279ea568f66055345ee8df41db18"
+		}
+	},
+	"checkver": {
+		"url": "https://github.com/Sigil-Ebook/Sigil/releases",
+		"regex": "Sigil-([\\d.]+)"
+	},
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/Sigil-Ebook/Sigil/releases/download/$version/Sigil-$version-Windows-x64-Setup.exe"
+				"hash": "https://github.com/Sigil-Ebook/Sigil/releases/download/$version/Sigil-$version-CHECKSUMS.sha256.txt"
+			}
+		}
+	}
+}

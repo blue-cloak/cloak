@@ -1,0 +1,13 @@
+{
+	"homepage": "http://pandownload.com/index.html",
+	"description": "Baidu Yunpan downloader",
+	"license": "Unlicensed",
+	"version": "2.1.1",
+	"url": "http://pandownload.com/2.1.1",
+	"extract_dir": "PanDownload",
+	"bin": [ [ "PanDownload.exe", "pandownload" ] ],
+	"checkver": {
+		"url": "http://pandownload.com/index.html",
+		"regex": "v([\\d.]+\\d)"
+	}
+}
