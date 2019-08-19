@@ -5,7 +5,7 @@
 	"version": "5.11",
 	"architecture": {
 		"64bit": {
-			"url": "https://jaist.dl.sourceforge.net/project/orwelldevcpp/Portable%20Releases/Dev-Cpp%205.11%20No%20Compiler%20Portable.7z",
+			"url": "https://sourceforge.net/projects/orwelldevcpp/files/Portable%20Releases/Dev-Cpp%205.11%20No%20Compiler%20Portable.7z",
 			"extract_dir": "Dev-Cpp",
 			"bin": [ [ "devcppPortable.exe", "devcpp" ] ]
 		}
@@ -21,7 +21,7 @@
 	"autoupdate": {
 		"architecture": {
 			"64bit": {
-				"url": "https://jaist.dl.sourceforge.net/project/orwelldevcpp/Portable%20Releases/Dev-Cpp%20$version%20No%20Compiler%20Portable.7z",
+				"url": "https://sourceforge.net/projects/orwelldevcpp/files/Portable%20Releases/Dev-Cpp%20$version%20No%20Compiler%20Portable.7z",
 				"bin": [ [ "devcppPortable.exe", "devcpp" ] ]
 			}
 		}
