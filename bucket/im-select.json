@@ -1,0 +1,15 @@
+{
+	"homepage": "https://github.com/daipeihust/im-select",
+	"description": "Switch your input method from terminal",
+	"license": "MIT License",
+	"version": "1.0",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe",
+		},
+		"32bit": {
+			"url": "https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe",
+		}
+	},
+	"bin": "im-select.exe"
+}
