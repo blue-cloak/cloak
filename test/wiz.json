@@ -1,0 +1,38 @@
+{
+    "description": "A note software",
+    "homepage": "https://www.wiz.cn/",
+    "license": "Freeware",
+    "version": "0.9.5",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.x86_64-win64.msi",
+            "hash": "sha1:88f74d9b2944e1c3d6143347fd57c2ec9e326e57"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%200.9.5%20beta/doublecmd-0.9.5.i386-win32.msi",
+            "hash": "sha1:02357a4f056b31765470ac2fc634b971cc34c41e"
+        }
+    },
+    "extract_dir": "Double Commander",
+    "bin": "doublecmd.exe",
+    "shortcuts": [
+        [
+            "doublecmd.exe",
+            "Double Commander"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.wiz.cn/category/downloads",
+        "regex": "([\\d\\.]+)\\d" //???
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2064%20bit/Double%20Commander%20$version%20beta/doublecmd-$version.x86_64-win64.msi"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/doublecmd/DC%20for%20Windows%2032%20bit/Double%20Commander%20$version%20beta/doublecmd-$version.i386-win32.msi"
+            }
+        }
+    }
+}
