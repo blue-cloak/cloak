@@ -3,11 +3,16 @@
 	"description": "Baidu Yunpan downloader",
 	"license": "Unlicensed",
 	"version": "2.1.1",
-	"url": "http://pandownload.com/2.1.1",
+	"url": "http://dl.pandownload.club/dl/PanDownload_v2.1.1.zip",
 	"extract_dir": "PanDownload",
 	"bin": [ [ "PanDownload.exe", "pandownload" ] ],
 	"checkver": {
 		"url": "http://pandownload.com/index.html",
 		"regex": "v([\\d.]+\\d)"
+	},
+	"autoupdate": {
+		"url": "http://dl.pandownload.club/dl/PanDownload_v$version.zip",
+		"extract_dir": "PanDownload",
+		"bin": [ [ "PanDownload.exe", "pandownload" ] ]
 	}
 }
