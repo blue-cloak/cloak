@@ -1,16 +1,25 @@
 {
-	"homepage": "https://www.bypass.cn",
-	"description": "12306 ticket buyer",
-	"version": "1.13.54",
-	"license": "Freeware",
-	"url": "https://www.bypass.cn/api/download?name=Bypass.zip#/Bypass.zip",
-	"extract_dir": "Bypass",
-	"bin": [ [ "Bypass.exe", "bypass" ] ],
-	"checkver": {
-		"url": "https://www.bypass.cn/",
-		"regex": "Version.*?([\\d.]+)</label>"
-	},
-	"autoupdate": {
-	"url": "https://www.bypass.cn/api/download?name=Bypass.zip#/Bypass.zip"
+    "homepage": "https://www.bypass.cn",
+    "description": "12306 ticket buyer",
+    "version": "1.13.97",
+    "license": "Freeware",
+    "url": "https://www.bypass.cn/api/download?name=Bypass.zip#/Bypass.zip",
+    "hash": "ddc6feec59cbb62a0dd03a3ea7cdedd1d7b5894da1bc1dd58876a8f021fe7d98",
+    "extract_dir": "Bypass",
+    "bin": [
+        [
+            "Bypass.exe",
+            "bypass"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.bypass.cn/",
+        "regex": "Version.*?([\\d.]+)</label>"
+    },
+    "autoupdate": {
+        "url": "https://www.bypass.cn/api/download?name=Bypass.zip#/Bypass.zip",
+        "hash": {
+			"mode": "download"
+		}
     }
 }

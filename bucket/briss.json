@@ -12,7 +12,7 @@
 	},
 	"checkver": {
 		"url": "https://sourceforge.net/projects/briss/files/",
-		"regex": "release ([\\d.]+)\\d"
+		"regex": "briss-([\\d]+\\.\\d)"
 	},
 	"autoupdate": {
 		"architecture": {
