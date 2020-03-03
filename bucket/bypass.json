@@ -1,13 +1,16 @@
 {
 	"homepage": "https://www.bypass.cn",
 	"description": "12306 ticket buyer",
-	"license": "Freeware",
 	"version": "1.13.54",
+	"license": "Freeware",
 	"url": "https://www.bypass.cn/api/download?name=Bypass.zip#/Bypass.zip",
 	"extract_dir": "Bypass",
 	"bin": [ [ "Bypass.exe", "bypass" ] ],
 	"checkver": {
 		"url": "https://www.bypass.cn/",
-		"regex": "Version: ([\\d.]+)"
-	}
+		"regex": "Version.*?([\\d.]+)</label>"
+	},
+	"autoupdate": {
+	"url": "https://www.bypass.cn/api/download?name=Bypass.zip#/Bypass.zip"
+    }
 }

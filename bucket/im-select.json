@@ -11,5 +11,18 @@
 			"url": "https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe"
 		}
 	},
-	"bin": "im-select.exe"
+	"bin": "im-select.exe",
+	"checkver": {
+		"github": "https://github.com/daipeihust/im-select"
+	},
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x64/im-select.exe"
+			},
+			"32bit": {
+				"url": "https://github.com/daipeihust/im-select/raw/master/im-select-win/out/x86/im-select.exe"
+			}
+        }
+	}
 }

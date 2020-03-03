@@ -5,7 +5,7 @@
 	"version": "5.11",
 	"architecture": {
 		"64bit": {
-			"url": "https://sourceforge.net/projects/orwelldevcpp/files/Portable%20Releases/Dev-Cpp%205.11%20TDM-GCC%20x64%204.9.2%20Portable.7z",
+			"url": "https://downloads.sourceforge.net/project/orwelldevcpp/Portable%20Releases/Dev-Cpp%205.11%20TDM-GCC%20x64%204.9.2%20Portable.7z",
 			"extract_dir": "Dev-Cpp",
 			"bin": [ [ "devcppPortable.exe", "devcpp" ] ]
 		}
@@ -15,13 +15,13 @@
 		"Templates"
 	],
 	"checkver": {
-		"url": "http://orwelldevcpp.blogspot.com/",
-		"regex": "Dev-C++ ([\\d.]+) released"
+		"url": "https://sourceforge.net/projects/orwelldevcpp/files/",
+		"regex": "Dev-Cpp ([\\d]+.[\\d]+)"
 	},
 	"autoupdate": {
 		"architecture": {
 			"64bit": {
-				"url": "https://sourceforge.net/projects/orwelldevcpp/files/Portable%20Releases/Dev-Cpp%20$version%20TDM-GCC%20x64%204.9.2%20Portable.7z",
+				"url": "https://downloads.sourceforge.net/project/orwelldevcpp/Portable%20Releases/Dev-Cpp%205.11%20TDM-GCC%20x64%204.9.2%20Portable.7z",
 				"extract_dir": "Dev-Cpp",
 				"bin": [ [ "devcppPortable.exe", "devcpp" ] ]
 			}
