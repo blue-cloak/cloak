@@ -1,0 +1,16 @@
+{
+    "homepage": "https://msmgtoolkit.in/",
+    "description": "A Tool to modify Windows installation images",
+    "license": "?",
+    "version": "9.5",
+    "url": "https://msmgtoolkit.in/download.html",
+    "hash": "sha1:8B8707868B158E4D149355ABE59608C179498543"
+    "bin": "Start.cmd",
+    "checkver": {
+        "url": "https://msmgtoolkit.in/download.html",
+        "regex": "Toolkit_v([\\d.]+)z"
+    },
+    "autoupdate": {
+		"url": "https://msmgtoolkit.in/download.html"
+            }
+}

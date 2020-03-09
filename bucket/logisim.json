@@ -1,0 +1,27 @@
+{
+    "homepage": "http://www.cburch.com/logisim/index.html",
+    "version": "2.6.2",
+    "license": "GPL",
+    "url": "https://sourceforge.net/projects/circuit/files/2.6.x/2.6.2/logisim-win-2.6.2.exe#/dl.7z",
+    "hash": "sha1:053c6c62e62282623093f3464abe3aeeccd9781a",
+    "bin": "logisim-win-$version.exe",
+    
+    "checkver": {
+        "url": "https://sourceforge.net/projects/circuit/files/",
+        "re": "logisim-win-([\\d\\.]+[\\d]).exe"
+    },
+    "autoupdate": {
+		"url": "https://sourceforge.net/projects/circuit/files/2.6.x/$version/logisim-win-$version.exe#/dl.7z",
+		"hash": "sourceforge"
+    },
+    "notes": [
+		"todo: seal 'java -jar logisim in it'",
+		""
+	]
+    "suggest": [
+		"JDK": [
+			"java/oraclejdk",
+			"java/openjdk"
+		]
+	]
+}

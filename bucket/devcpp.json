@@ -7,11 +7,10 @@
 		"64bit": {
 			"url": "https://downloads.sourceforge.net/project/orwelldevcpp/Portable%20Releases/Dev-Cpp%205.11%20No%20Compiler%20Portable.7z",
 			"extract_dir": "Dev-Cpp",
-			"bin": [ [ "devcppPortable.exe", "devcpp" ] ]
+			"bin": [ [ "devcpp.exe", "devcpp" ] ]
 		}
 	},
 	"persist": [
-		"config",
 		"Templates"
 	],
 	"checkver": {
@@ -22,7 +21,7 @@
 		"architecture": {
 			"64bit": {
 				"url": "https://downloads.sourceforge.net/project/orwelldevcpp/Portable%20Releases/Dev-Cpp%20$version%20No%20Compiler%20Portable.7z",
-				"bin": [ [ "devcppPortable.exe", "devcpp" ] ]
+				"bin": [ [ "devcpp.exe", "devcpp" ] ]
 			}
 		}
 	},
