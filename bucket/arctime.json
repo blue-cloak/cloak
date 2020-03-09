@@ -4,16 +4,16 @@
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dlhz.arctime.cn/ARCTIME_PRO_2.3_WIN32.rar",
+            "url": "https://dlhz.arctime.cn/ARCTIME_PRO_2.3_WIN32.rar"
         },
         "32bit": {
-            "url": "https://dlhz.arctime.cn/ARCTIME_PRO_2.3_WIN32.rar",
+            "url": "https://dlhz.arctime.cn/ARCTIME_PRO_2.3_WIN32.rar"
         },
         "hash": "download"
     },
     "checkver": {
         "url": "http://arctime.cn/download.html",
-        "re": "最新版本 Pro ([\\d.]+[\\d])"
+        "re": "Pro ([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
