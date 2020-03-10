@@ -15,12 +15,10 @@
     },
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\" -ExtractDir 'Chrome-bin' -Removal",
     "bin": [
-        "chrome.exe",
         [
             "chrome.exe",
-            "chromium"
-        ],
-        "--ppapi-flash-path=\"C:\\Users\\thor\\AppData\\Local\\Google\\Chrome\\User Data\\PepperFlash\\32.0.0.330\\pepflashplayer.dll\" --ppapi-flash-version=\"32.0.0.330\" --allow-outdated-plugins"
+            "chromium",
+        ]
     ],
     "shortcuts": [
         [
