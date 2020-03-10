@@ -1,0 +1,52 @@
+{
+    "version": "80.0.3987.132",
+    "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (Hibbiki's build)",
+    "homepage": "https://www.chromium.org",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v80.0.3987.132-r722274/mini_installer.sync.exe#/dl.7z",
+            "hash": "sha1:a5d92f1e3853254e6114eefa38a3be9d549d7c68"
+        },
+        "32bit": {
+            "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v80.0.3987.132-r722274/mini_installer.sync.exe#/dl.7z",
+            "hash": "sha1:48acaaf58c2469e05e571885c72a811e300683e4"
+        }
+    },
+    "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\" -ExtractDir 'Chrome-bin' -Removal",
+    "bin": [
+        "chrome.exe",
+        [
+            "chrome.exe",
+            "chromium"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "chrome.exe",
+            "Chromium"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Hibbiki/chromium-win64",
+        "regex": "v([\\d.]+)-r(?<rev>\\d+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v$version-r$matchRev/mini_installer.sync.exe#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/Hibbiki/chromium-win64/releases/v$version-r$matchRev",
+                    "regex": "$sha1 /mnt/d/out/x64/$basename"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v$version-r$matchRev/mini_installer.sync.exe#/dl.7z",
+                "hash": {
+                    "url": "https://github.com/Hibbiki/chromium-win32/releases/v$version-r$matchRev",
+                    "regex": "$sha1 /mnt/d/out/x86/$basename"
+                }
+            }
+        }
+    }
+}
