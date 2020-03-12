@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/studyzy/imewlconverter/",
+    "version": "2.7.0",
+    "description": "IME converter",
+    "license": "GPL v3",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/studyzy/imewlconverter/releases/download/v2.7.0/imewlconverter_Windows.zip",
+            "hash": {
+				"mode": "download"
+			}
+        }
+    },
+    "bin": [
+		[
+			"深蓝词库转换.exe",
+			"imewlconverter"
+		]
+    ],
+    "checkver": {
+        "github": "https://github.com/studyzy/imewlconverter"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://github.com/studyzy/imewlconverter/releases/download/v$version/imewlconverter_Windows.zip",
+                "hash": {
+					"mode": "download"
+				}
+            }
+        }
+    }
+}

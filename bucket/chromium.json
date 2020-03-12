@@ -18,6 +18,7 @@
         [
             "chrome.exe",
             "chromium",
+            "--ppapi-flash-path=\"$env:LOCALAPPDATA\\Chromium\\User Data\\PepperFlash\\29.0.0.171\\pepflashplayer.dll\" --ppapi-flash-version=\"32.0.0.330\" --allow-outdated-plugins"
         ]
     ],
     "shortcuts": [
