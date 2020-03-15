@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft]
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment]
+"CurrentVersion"="1.8"
+ 
+[HKEY_LOCAL_MACHINE\SOFTWARE\JavaSoft\Java Runtime Environment\1.8]
+"JavaHome"="$scoop_dir\\apps\\oraclejre8\\current"
