@@ -1,16 +1,16 @@
 {
-    "version": "80.0.3987.132",
+    "version": "87.0.4280.88",
     "description": "Browser aiming for safer, faster, and more stable way for all users to experience the web (Hibbiki's build)",
     "homepage": "https://www.chromium.org",
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v80.0.3987.132-r722274/mini_installer.sync.exe#/dl.7z",
-            "hash": "sha1:a5d92f1e3853254e6114eefa38a3be9d549d7c68"
+            "url": "https://github.com/Hibbiki/chromium-win64/releases/download/v87.0.4280.88-r812852/mini_installer.sync.exe#/dl.7z",
+            "hash": "sha1:76985829dbece785d98e9870c6a844ada55f50bb"
         },
         "32bit": {
-            "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v80.0.3987.132-r722274/mini_installer.sync.exe#/dl.7z",
-            "hash": "sha1:48acaaf58c2469e05e571885c72a811e300683e4"
+            "url": "https://github.com/Hibbiki/chromium-win32/releases/download/v87.0.4280.88-r812852/mini_installer.sync.exe#/dl.7z",
+            "hash": "sha1:f0b0965d0c3f3fc30c10165863ea38ed74745011"
         }
     },
     "pre_install": "Expand-7zipArchive \"$dir\\chrome.7z\" \"$dir\" -ExtractDir 'Chrome-bin' -Removal",
@@ -18,7 +18,7 @@
         [
             "chrome.exe",
             "chromium",
-            "--ppapi-flash-path=\"$env:LOCALAPPDATA\\Chromium\\User Data\\PepperFlash\\29.0.0.171\\pepflashplayer.dll\" --ppapi-flash-version=\"32.0.0.330\" --allow-outdated-plugins"
+            "--ppapi-flash-path=\"$env:LOCALAPPDATA\\Chromium\\User Data\\PepperFlash\\32.0.0.330\\pepflashplayer.dll\" --ppapi-flash-version=\"32.0.0.330\" --allow-outdated-plugins"
         ]
     ],
     "shortcuts": [
