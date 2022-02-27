@@ -1,15 +1,15 @@
 {
     "homepage": "http://arctime.cn/index.html",
-    "version": "2.4.1",
+    "version": "3.1.1",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://dl.arctime.cn/ARCTIME_PRO_2.4.1_WIN64.rar",
-            "hash": "5ace2b790f4c7a0f239fda49c77d3f504f6983fef8794a0d02076b0fc3544a51"
+            "url": "http://dl.arctime.pro/ARCTIME_PRO_3.1.1_WIN64.rar",
+            "hash": "d4859bd52026ab0ec104de030e60e9e864495bce449999b243969fa145a51d07"
         },
         "32bit": {
-            "url": "http://dl.arctime.cn/ARCTIME_PRO_2.4.1_WIN32.rar",
-            "hash": "cb141910666039f39ddaff565f253481db033f04193e393f8ec14a473e2898eb"
+            "url": "http://dl.arctime.pro/ARCTIME_PRO_3.1.1_WIN32.rar",
+            "hash": "52b43f974b0794b7de2f449282628ec1e8c1804fd55674759ac7fdf04a9085d0"
         }
     },
     "checkver": {
@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN64.rar"
+                "url": "http://dl.arctime.pro/ARCTIME_PRO_$version_WIN64.rar"
             },
             "32bit": {
-                "url": "http://dl.arctime.cn/ARCTIME_PRO_$version_WIN32.rar"
+                "url": "http://dl.arctime.pro/ARCTIME_PRO_$version_WIN32.rar"
             }
         }
     }
