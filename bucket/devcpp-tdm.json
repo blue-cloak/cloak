@@ -27,7 +27,7 @@
 		}
 	},
 	"notes": [
-		"This is the whole version of devcpp, if don't want compiler, use",
+		"This is the whole version of devcpp, if you don't want compiler included, use",
 		"",
 		"scoop install devcpp"
 	]
