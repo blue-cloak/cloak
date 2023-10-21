@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/studyzy/imewlconverter/",
-    "version": "2.9.0",
+    "version": "3.0.0",
     "description": "IME converter",
     "license": "GPL v3",
     "architecture": {
         "32bit": {
-            "url": "https://github.com/studyzy/imewlconverter/releases/download/v2.9.0/imewlconverter_Windows.zip",
-            "hash": "96e4c2ffdec86cb61983435378fcf102e01f6a27e24b6f365f623f5fdf9a890a"
+            "url": "https://github.com/studyzy/imewlconverter/releases/download/v3.0.0/imewlconverter-v3.0.0-windows.zip",
+            "hash": "ee9c09d345097ea1259ebdb3ec7791319ab1971348c04d0d89b10828b089f043"
         }
     },
     "bin": [
@@ -21,7 +21,7 @@
     "autoupdate": {
         "architecture": {
             "32bit": {
-                "url": "https://github.com/studyzy/imewlconverter/releases/download/v$version/imewlconverter_Windows.zip",
+                "url": "https://github.com/studyzy/imewlconverter/releases/download/v$version/imewlconverter-v$version-windows.zip",
                 "hash": {
                     "mode": "download"
                 }
