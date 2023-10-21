@@ -1,15 +1,15 @@
 {
     "homepage": "http://arctime.cn/index.html",
-    "version": "3.1.1",
+    "version": "4.2",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "http://dl.arctime.pro/ARCTIME_PRO_3.1.1_WIN64.rar",
-            "hash": "d4859bd52026ab0ec104de030e60e9e864495bce449999b243969fa145a51d07"
+            "url": "http://dl.arctime.pro/ARCTIME_PRO_4.2_WIN64.rar",
+            "hash": "e1ebf44aa28b5d61af9025fc63da6b36584f046cb1d961dcba13466e174acec6"
         },
         "32bit": {
-            "url": "http://dl.arctime.pro/ARCTIME_PRO_3.1.1_WIN32.rar",
-            "hash": "52b43f974b0794b7de2f449282628ec1e8c1804fd55674759ac7fdf04a9085d0"
+            "url": "http://dl.arctime.pro/ARCTIME_PRO_4.2_WIN32.rar",
+            "hash": "20bd9b4dcc9d6fdc76411524883c8dbcf98ac9968457b85895162c81add6ae2c"
         }
     },
     "checkver": {
