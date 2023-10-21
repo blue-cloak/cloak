@@ -4,7 +4,12 @@
     "license": "GPL",
     "url": "https://sourceforge.net/projects/circuit/files/2.7.x/2.7.1/logisim-win-2.7.1.exe",
     "hash": "sha1:5a973d5d58f425ba5d91c2573f1df18939278865",
-    "bin": "logisim-win-$version.exe",
+    "bin": [
+        [
+            "logisim-win-$version.exe",
+            "logisim"
+        ]
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/circuit/files/",
         "re": "logisim-win-([\\d\\.]+[\\d]).exe"
