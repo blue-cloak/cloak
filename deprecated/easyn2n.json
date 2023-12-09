@@ -1,0 +1,20 @@
+{
+    "homepage": "https://bugxia.com/525.html",
+    "version": "3.1.2",
+    "license": "Freeware",
+    "url": "https://down.bugxia.com/files/n2n_client_windows_3.12_Pack_2.zip",
+    "hash": "2e39240bdac4d237124a83709a35f4dffa28cc6b794f1a5650757718538482f3",
+    "persist": [
+        "config"
+    ],
+    "checkver": {
+        "url": "https://bugxia.com/357.html",
+        "re": "v([\\d.]+\\d)"
+    },
+    "autoupdate": {
+        "url": "https://down.bugxia.com/files/n2n_client_windows_3.12_Pack_2.zip",
+        "hash": {
+            "mode": "download"
+        }
+    }
+}
