@@ -10,6 +10,12 @@
             "logisim"
         ]
     ],
+    "shortcuts": [
+        [
+            "logisim.exe",
+            "Logisim"
+        ]
+    ],
     "checkver": {
         "url": "https://sourceforge.net/projects/circuit/files/",
         "re": "logisim-win-([\\d\\.]+[\\d]).exe"
