@@ -1,0 +1,15 @@
+{
+    "homepage": "https://github.com/yoshiko2/Movie_Data_Capture",
+    "version": "6.6.7",
+    "description": "Movie data capture, AV scrape, 6.6.7 is the last free version",
+    "license": "GPL-3.0",
+    "url": "https://github.com/yoshiko2/Movie_Data_Capture/releases/download/6.6.7/MDC-6.6.7-Windows-amd64.zip",
+    "hash": "3a6e42f7e99f4f6eb613e5d3b6c85a42d5ffcfcb670806ac40c7977fe7a6e126",
+    "persist": "config.ini",
+    "bin": [
+        [
+            "Movie_Data_Capture.exe",
+            "mdc"
+        ]
+    ]
+}
