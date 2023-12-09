@@ -1,0 +1,26 @@
+{
+    "homepage": "https://github.com/anyabc/something",
+    "version": "20231014",
+    "description": "AV scrape, MDC GUI",
+    "license": "GPL-3.0",
+    "url": "https://github.com/anyabc/something/releases/download/MDCx/MDCx-win-20231014.rar",
+    "extract_dir": "MDCx-win-20231011",
+    "hash": "",
+    "bin": [
+        [
+            "MDCx.exe",
+            "mdcx"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/anyabc/something/releases/tag/MDCx",
+        "re": "MDCx-win-(\\d+).rar"
+    },
+    "autoupdate": {
+        "url": "https://github.com/anyabc/something/releases/download/MDCx/MDCx-win-$version.rar",
+        "hash": {
+            "mode": "download"
+        },
+        "extract_dir": "MDCx-win-$version"
+    }
+}
