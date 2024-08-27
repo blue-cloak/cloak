@@ -1,11 +1,15 @@
 {
-    "homepage": "https://github.com/anyabc/something",
+    "homepage": "https://github.com/sqzw-x/mdcx",
     "version": "20231014",
     "description": "AV scrape, MDC GUI",
     "license": "GPL-3.0",
-    "url": "https://github.com/anyabc/something/releases/download/MDCx/MDCx-win-20231014.rar",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sqzw-x/mdcx/releases/download/120240321/MDCx-120240321-windows-x86_64-ecaf015e.exe",
+            "hash": "e66f0a6e30b9f20787c7d4a1c57b8f2b518d36c1c7cbdbbb6220d51226ddd0b6"
+        }
+    },
     "extract_dir": "MDCx-win-20231011",
-    "hash": "",
     "bin": [
         [
             "MDCx.exe",
@@ -13,7 +17,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/anyabc/something/releases/tag/MDCx",
+        "url": "https://github.com/sqzw-x/mdcx/releases",
         "re": "MDCx-win-(\\d+).rar"
     },
     "autoupdate": {
