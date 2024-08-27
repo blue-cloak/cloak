@@ -2,9 +2,9 @@
     "homepage": "https://github.com/ModOrganizer2/modorganizer",
     "description": "Mod Organizer (MO) is a tool for managing mod collections of arbitrary size.",
     "license": "GPL-3.0",
-    "version": "2.5.0",
-    "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.5.0/Mod.Organizer-2.5.0.7z",
-    "hash": "9f20a7f2807f5b5a0f801e749d1f4f9160d32b684fe4c27a2d70b0f29fa0fc94",
+    "version": "2.5.2",
+    "url": "https://github.com/ModOrganizer2/modorganizer/releases/download/v2.5.2/Mod.Organizer-2.5.2.7z",
+    "hash": "e6376efd87fd5ddd95aee959405e8f067afa526ea6c2c0c5aa03c5108bf4a815",
     "shortcuts": [
         [
             "ModOrganizer.exe",
